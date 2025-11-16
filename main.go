@@ -5,8 +5,6 @@ import (
 	"go-bank/contas"
 )
 
-
-
 func main() {
 	contaDaSilvia := contas.ContaCorrente{Titular: "Silvia", Saldo: 300}
 	contaDoGabriel := contas.ContaCorrente{Titular: "Gabriel", Saldo: 100}
